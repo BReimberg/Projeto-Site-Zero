@@ -27,9 +27,9 @@ nav.nav-produtos {
                 z-index: 999; //Acima de tudo;
                 display: none; //Esconde as opções dentro do menu;
                 position: absolute;
-                top: 44px; //Topo da do menu interno;
+                top: 46px; //Topo da do menu interno;
                 left: 0px;
-                background: $cor-secundaria; //Com do menu interno
+                background: $cor-secundaria; //Cor do menu interno
                 border-top: solid $cor-primaria 10px; //cor da borda superior do menu interno;
                 width: 100%; //Tamanho do menu interno;
 
