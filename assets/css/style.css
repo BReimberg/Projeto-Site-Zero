@@ -118,6 +118,51 @@ nav.nav-produtos ul.nav li ul.nav li {
   font-weight: bold;
 }
 
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-items {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-items h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-items .produtos-stars {
+  font-size: 10px;
+}
+.produtos .produtos-container .produtos-items .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-items .produtos-preco {
+  font-size: 16px;
+}
+
+footer {
+  background: #343A40;
+  padding: 25px 0px;
+  color: #FFF;
+}
+footer a {
+  color: #FFF;
+}
+footer a:hover {
+  color: #FFF;
+}
+footer h4 {
+  font-size: 19px;
+  color: #FFC107;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /*!
 * Bootstrap  v5.3.2 (https://getbootstrap.com/)
 * Copyright 2011-2023 The Bootstrap Authors
@@ -12224,6 +12269,14 @@ body {
 
 a {
   text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
