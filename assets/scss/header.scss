@@ -5,7 +5,8 @@ header {
 
     //Área de Pesquisa
     form {
-        input[type="text"] { //Input do tipo texto; 
+        input[type="text"] {
+            //Input do tipo texto;
             background: $branco; //Fundo branco;
             width: 100%; //Tamanho do campo;
             border-radius: 100px; //Arredondamento do campo;
@@ -17,18 +18,18 @@ header {
             background: none; //Sem cor de fundo;
             border: none; //Sem borda;
             position: absolute;
-            left: 915px; //Posição do botão em px no cabeçalho;
+            left: 800px; //Posição do botão em px no cabeçalho;
         }
     }
-
     //Área de Entrada e Carrinho de Compras
     ul {
         li {
             position: relative;
-            span.notificacao { //Ícone de quantidade de itens no carrinho;
+            span.notificacao {
+                //Ícone de quantidade de itens no carrinho;
                 color: $branco; //Cor do texto;
                 background: $rosa; //Cor de fundo do ícone;
-                
+
                 position: absolute;
                 top: -13px; //Espaçamento superior;
                 left: 7px; //Espaçamento a esquerda;
@@ -36,19 +37,17 @@ header {
                 width: 15px; //Largura;
                 height: 15px; //Altura;
                 border-radius: 100px; //Proporção da borda;
-
             }
 
             a {
                 font-size: 16px; //Tamanho da fonte;
-                font-weight: bold; //Espessura da fonte
                 color: $cor-secundaria; //cor do texto Entrar e Carrinho;
-                svg{
+                svg {
                     font-size: 23px; //Tamanho dos ícones usuário e carrinho;
                 }
 
-                &:hover { //Ação do ícone quando passar o mouse por cima;
-                    color: initial;
+                &:hover {
+                    color: $branco; //Ação do ícone quando passar o mouse por cima;
                 }
             }
         }

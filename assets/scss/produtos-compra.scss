@@ -1,0 +1,43 @@
+.produtos-compra {
+    figure {
+        margin: 0;
+    }
+    .produtos-conteudo {
+        h2 {
+            margin: 0;
+            font-size: 32px;
+        }
+        
+        p {
+            margin-top: 5px;
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+    
+    .produtos-preco {
+        .produtos-stars {
+            svg {
+                fill: $amarelo;
+            }
+        }
+
+        strong {
+            font-size: 40px;
+            span{
+                margin-bottom: 5px;
+            }
+        }
+
+        form {
+            font-weight: 200; //Fonte fina;
+            label {
+                margin-bottom: 5px;
+            }
+        }
+
+        .produtos-stars svg, strong span, form {
+            font-size: 16px;
+        }
+    }
+}

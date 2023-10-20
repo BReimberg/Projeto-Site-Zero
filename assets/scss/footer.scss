@@ -1,17 +1,21 @@
 footer {
-    background: $cor-secundaria;
-    padding: 25px 0px;
+    padding-bottom: 20px;
+    padding-top: 5px;
     color:$branco;
-
+    background: $cor-secundaria;
+    
     a {
-        color: $branco;
+        color: $branco !important;
         &:hover {
             color: $branco;
         }
     }
+    
     h4 {
         font-size: 19px;
         color: $cor-primaria;
+        margin: 0;
+        padding: 10px 0px;
     }
 
     ul {
@@ -20,6 +24,12 @@ footer {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;//Remover os espaços em branco;
+        }
+    }
+    
+    ul {
+        li.nav-item{
+            margin: 0;
         }
     }
 }

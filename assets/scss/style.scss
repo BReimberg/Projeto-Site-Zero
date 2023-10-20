@@ -4,16 +4,20 @@
 //Variáveis
 @import './variaveis.scss';
 
+//configurações
+@import './config.scss';
+
 //Componentes
 @import './header.scss';
 @import './nav-produtos.scss';
 @import './banners-promocionais-fixos.scss';
 @import './produtos.scss';
+@import './produtos-compra.scss';
 @import './footer.scss';
 @import './responsive.scss';
 
 //Framework
 @import './bootstrap.min.scss';
 
-//configurações
-@import './config.scss';
+//Componentes do Bootstrap
+@import './breadcrumb.scss';
