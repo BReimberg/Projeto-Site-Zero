@@ -28,12 +28,6 @@ header form input[type=text] {
   border: none;
   padding: 10px 20px;
 }
-header form button {
-  background: none;
-  border: none;
-  position: absolute;
-  left: 800px;
-}
 header ul li {
   position: relative;
 }
@@ -216,35 +210,7 @@ footer ul li.nav-item {
   margin: 0;
 }
 
-@media (max-width: 2560px) {
-  header form button {
-    left: 1560px;
-  }
-}
-@media (max-width: 1440px) {
-  header form button {
-    left: 910px;
-  }
-}
-@media (max-width: 1200px) {
-  header form button {
-    left: 837px;
-  }
-}
-@media (max-width: 1024px) {
-  header form button {
-    left: 705px;
-  }
-}
-@media (max-width: 900px) {
-  header form button {
-    left: 585px;
-  }
-}
 @media (max-width: 768px) {
-  header form button {
-    left: 520px;
-  }
   a img {
     margin: 0 10px 0 0;
   }
@@ -253,9 +219,6 @@ footer ul li.nav-item {
   }
 }
 @media (max-width: 767px) {
-  header form button {
-    left: 605px;
-  }
   a img {
     margin: 0 0 10px 0;
   }
@@ -270,9 +233,6 @@ footer ul li.nav-item {
   }
 }
 @media (max-width: 720px) {
-  header form button {
-    left: 580px;
-  }
   a img {
     margin: 0 0 10px 0;
   }
@@ -287,25 +247,7 @@ footer ul li.nav-item {
     margin: 10px;
   }
 }
-@media (max-width: 480px) {
-  header form button {
-    left: 420px;
-  }
-}
-@media (max-width: 425px) {
-  header form button {
-    left: 365px;
-  }
-}
-@media (max-width: 375px) {
-  header form button {
-    left: 320px;
-  }
-}
 @media (max-width: 320px) {
-  header form button {
-    left: 260px;
-  }
   .banners-promocionais-fixos .banners-promocionais-fixos-12x p,
   .banners-promocionais-fixos .banners-promocionais-fixos-entrega-br p {
     font-size: 16px;
