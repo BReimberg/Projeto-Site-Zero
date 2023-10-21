@@ -1,0 +1,45 @@
+@mixin banners-promocionais($cor, $url-image) {
+    background: $cor;
+    background-image: url($url-image);
+}
+
+.banners-promocionais-fixos {
+
+    margin: 30px;
+
+    .banners-promocionais-fixos-12x {
+        @include banners-promocionais($rosa, '../images/parcele-em-12x.jpg')
+    }
+
+    .banners-promocionais-fixos-entrega-br {
+        @include banners-promocionais($roxo, '../images/entrega-para-todo-brasil.jpg')
+    }
+
+    .banners-promocionais-fixos-12x,
+    .banners-promocionais-fixos-entrega-br {
+        background-size: cover; //Tamanho do banner;
+        height: 105px;
+        padding: 20px 60px;
+        color: $branco;
+
+        svg, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        svg{
+            font-size: 50px;
+        }
+
+        p {
+            font-weight: 100;
+            font-size: 23px;
+            line-height: 110%;
+            margin-left: 15px;
+            strong {
+                font-weight: bold;
+            }
+        }
+    }
+    
+}

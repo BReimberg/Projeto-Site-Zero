@@ -1,0 +1,42 @@
+nav.nav-produtos {
+    background: $cor-secundaria;//cor de fundo da linha do menu;
+    color: $branco;//cor do texto do menu;
+    
+    a{ //Cor dos links
+        color: $branco;
+    }
+
+    ul.nav {
+        li{
+            position: relative;
+            padding: 10px; //Tamanho da linha escura do menu;
+
+            svg { //Imagem do ícone de menu;
+                margin-right: 10px; //margem para a direira;
+                font-size: 23px; //Tamanho da imagem;
+            }
+
+            &:hover{ //Ação de abrir o menu interno;
+                background: darken($color: $cor-secundaria, $amount: 10);
+                ul.nav{
+                    display: block;
+                }
+            }
+
+            ul.nav {
+                z-index: 999; //Acima de tudo;
+                display: none; //Esconde as opções dentro do menu;
+                position: absolute;
+                top: 46px; //Topo da do menu interno;
+                left: 0px;
+                background: $cor-secundaria; //Cor do menu interno
+                border-top: solid $cor-primaria 10px; //cor da borda superior do menu interno;
+                width: 100%; //Tamanho do menu interno;
+
+                li{
+                    padding: 10px 25px; //Espaçamento do menu interno;
+                }
+            }
+        }
+    }
+}

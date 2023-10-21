@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    a {
+        img {
+            margin: 0 10px 0 0;
+        }
+    }
+
+    #banners-promocionais {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    a {
+        img {
+            margin: 0 0 10px 0;
+        }
+    }
+    ul {
+        li {
+            margin: 25px 0 0 0;
+        }
+    }
+
+    .banners-promocionais-fixos {
+        .banners-promocionais-fixos-12x {
+            margin: 0 0 20px 0;
+        }
+    }
+
+    .produtos-container img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    a {
+        img {
+            margin: 0 0 10px 0;
+        }
+    }
+
+    ul {
+        li {
+            margin: 25px 0 0 0;
+        }
+    }
+    
+    .banners-promocionais-fixos {
+        .banners-promocionais-fixos-12x {
+            margin: 0 0 20px 0;
+        }
+    }
+
+    footer {
+        ul {
+            li {
+                float: left;
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .banners-promocionais-fixos {
+        .banners-promocionais-fixos-12x,
+        .banners-promocionais-fixos-entrega-br {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}

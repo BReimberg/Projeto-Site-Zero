@@ -1,0 +1,48 @@
+//Cabeçalho
+header {
+    background: $cor-primaria; //Cor do cabeçalho;
+    padding: 25px; //Espaço entre os ícones e a borda do cabeçalho;
+
+    //Área de Pesquisa
+    form {
+        input[type="text"] {
+            //Input do tipo texto;
+            background: $branco; //Fundo branco;
+            width: 100%; //Tamanho do campo;
+            border-radius: 100px; //Arredondamento do campo;
+            border: none; //Sem borda;
+            padding: 10px 20px; //Espaços entre o texto e o campo de pesquisa;
+        }
+    }
+    //Área de Entrada e Carrinho de Compras
+    ul {
+        li {
+            position: relative;
+            span.notificacao {
+                //Ícone de quantidade de itens no carrinho;
+                color: $branco; //Cor do texto;
+                background: $rosa; //Cor de fundo do ícone;
+
+                position: absolute;
+                top: -13px; //Espaçamento superior;
+                left: 7px; //Espaçamento a esquerda;
+                font-size: 10px; //Tamanho da fonte do texto;
+                width: 15px; //Largura;
+                height: 15px; //Altura;
+                border-radius: 100px; //Proporção da borda;
+            }
+
+            a {
+                font-size: 16px; //Tamanho da fonte;
+                color: $cor-secundaria; //cor do texto Entrar e Carrinho;
+                svg {
+                    font-size: 23px; //Tamanho dos ícones usuário e carrinho;
+                }
+
+                &:hover {
+                    color: $branco; //Ação do ícone quando passar o mouse por cima;
+                }
+            }
+        }
+    }
+}

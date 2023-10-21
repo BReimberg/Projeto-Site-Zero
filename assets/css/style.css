@@ -1,5 +1,258 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+header {
+  background: #FFC107;
+  padding: 25px;
+}
+header form input[type=text] {
+  background: #FFF;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  color: #FFF;
+  background: #FF0F9A;
+  position: absolute;
+  top: -13px;
+  left: 7px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+header ul li a {
+  font-size: 16px;
+  color: #343A40;
+}
+header ul li a svg {
+  font-size: 23px;
+}
+header ul li a:hover {
+  color: #FFF;
+}
+
+nav.nav-produtos {
+  background: #343A40;
+  color: #FFF;
+}
+nav.nav-produtos a {
+  color: #FFF;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 10px;
+}
+nav.nav-produtos ul.nav li svg {
+  margin-right: 10px;
+  font-size: 23px;
+}
+nav.nav-produtos ul.nav li:hover {
+  background: #1d2124;
+}
+nav.nav-produtos ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  z-index: 999;
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: 0px;
+  background: #343A40;
+  border-top: solid #FFC107 10px;
+  width: 100%;
+}
+nav.nav-produtos ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+
+.banners-promocionais-fixos {
+  margin: 30px;
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-12x {
+  background: #FF0F9A;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br {
+  background: #B343C3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-12x,
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #FFF;
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-12x svg, .banners-promocionais-fixos .banners-promocionais-fixos-12x p,
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br svg,
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-12x svg,
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br svg {
+  font-size: 50px;
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-12x p,
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 15px;
+}
+.banners-promocionais-fixos .banners-promocionais-fixos-12x p strong,
+.banners-promocionais-fixos .banners-promocionais-fixos-entrega-br p strong {
+  font-weight: bold;
+}
+
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-items {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-items h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-items .produtos-stars {
+  font-size: 10px;
+}
+.produtos .produtos-container .produtos-items .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-items .produtos-preco {
+  font-size: 16px;
+}
+
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h2 {
+  margin: 0;
+  font-size: 32px;
+}
+.produtos-compra .produtos-conteudo p {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produtos-preco strong span {
+  margin-bottom: 5px;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 200;
+}
+.produtos-compra .produtos-preco form label {
+  margin-bottom: 5px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg, .produtos-compra .produtos-preco strong span, .produtos-compra .produtos-preco form {
+  font-size: 16px;
+}
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 5px;
+  color: #FFF;
+  background: #343A40;
+}
+footer a {
+  color: #FFF !important;
+}
+footer a:hover {
+  color: #FFF;
+}
+footer h4 {
+  font-size: 19px;
+  color: #FFC107;
+  margin: 0;
+  padding: 10px 0px;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+footer ul li.nav-item {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  a img {
+    margin: 0 10px 0 0;
+  }
+  #banners-promocionais {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  a img {
+    margin: 0 0 10px 0;
+  }
+  ul li {
+    margin: 25px 0 0 0;
+  }
+  .banners-promocionais-fixos .banners-promocionais-fixos-12x {
+    margin: 0 0 20px 0;
+  }
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  a img {
+    margin: 0 0 10px 0;
+  }
+  ul li {
+    margin: 25px 0 0 0;
+  }
+  .banners-promocionais-fixos .banners-promocionais-fixos-12x {
+    margin: 0 0 20px 0;
+  }
+  footer ul li {
+    float: left;
+    margin: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .banners-promocionais-fixos .banners-promocionais-fixos-12x p,
+  .banners-promocionais-fixos .banners-promocionais-fixos-entrega-br p {
+    font-size: 16px;
+  }
+}
 /*!
 * Bootstrap  v5.3.2 (https://getbootstrap.com/)
 * Copyright 2011-2023 The Bootstrap Authors
@@ -12100,5 +12353,13 @@ textarea.form-control-lg {
   }
 }
 
+.breadcrumb {
+  background: initial;
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
 
 /*# sourceMappingURL=style.css.map */

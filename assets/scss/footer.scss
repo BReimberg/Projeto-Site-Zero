@@ -1,0 +1,35 @@
+footer {
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color:$branco;
+    background: $cor-secundaria;
+    
+    a {
+        color: $branco !important;
+        &:hover {
+            color: $branco;
+        }
+    }
+    
+    h4 {
+        font-size: 19px;
+        color: $cor-primaria;
+        margin: 0;
+        padding: 10px 0px;
+    }
+
+    ul {
+        li.ellipsis { //Reduzir o tamanho do nome e colocar ... no final para mostrar que o nome continua;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;//Remover os espaços em branco;
+        }
+    }
+    
+    ul {
+        li.nav-item{
+            margin: 0;
+        }
+    }
+}
