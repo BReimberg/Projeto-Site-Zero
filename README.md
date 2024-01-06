@@ -3,7 +3,7 @@ Site elaborado durante o curso Jornada Front-End
 
 ## Objetivo
 Estudar conceitos do Front-End;  
-Praticar a linguagem de marcação HTML e a linguagem de estilo CSS utilizando do Bootstrap.  
+Praticar a linguagem de marcação HTML e a linguagem de estilo CSS utilizando o Bootstrap.  
 
 ## RESULTADO
 ### Página inicial  
