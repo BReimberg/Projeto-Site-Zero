@@ -16,7 +16,7 @@ Praticar a linguagem de marcação HTML e a linguagem de estilo CSS utilizando o
 <img src="./assets/img-README/site-4.png/"> 
 <img src="./assets/img-README/site-6.png"> 
 
-### Página do produto com imagem, informações, valor, quantidade de estrelas de avaliações, quantidade de itens a comprar e a área de comentários sobre o produto via Facebook.
+### Página do produto com imagem, informação, valor, quantidade de estrelas, quantidade de itens a comprar e a área de comentários sobre o produto via Facebook.
 <img src="./assets/img-README/site-5.png">  
 <img src="./assets/img-README/site-7.png">  
 <img src="./assets/img-README/site-8.png">  
